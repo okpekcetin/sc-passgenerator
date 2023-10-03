@@ -1,0 +1,49 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="main">
+                <h1>Generate a <span id="ending-txt">random password</span></h1>
+                <p id="never-prg">Never use an insecure password again</p>
+                    
+                    <div id="passlength">
+                        <label for="length">Password Length:</label>
+                        <select id="passlength-el">
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option selected>15</option>
+                        </select>
+                    </div>
+                    <div id="options">
+                        <div>
+                            <input type="checkbox" id="letters-el">
+                            <label for="letters">Include letters</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="numbers-el">
+                            <label for="numbers">Include numbers</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="symbols-el">
+                            <label for="symbols">Include symbols</label>
+                        </div>
+                    </div>
+                    <button id="generate-btn" onclick="generate()">Generate Passwords</button>
+                <hr id="line">
+                <div id="pass-cnt">
+                    <p class="password" id="box1-el"></p>
+                    <p class="password" id="box2-el"></p>
+                </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

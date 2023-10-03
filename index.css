@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+#main {
+    height: 430px;
+    width: 446px;
+    margin: 0 auto;
+    background-color: #1F2937;
+    padding: 60px 52px;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    width: 354px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin: 0px;
+}
+
+#ending-txt {
+    color: #38BDF8;
+}
+
+#never-prg {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #D5D4D8;
+    margin: 10px 0px 51px 0px;
+}
+
+#passlength {
+    margin: 0px;
+    color: #D5D4D8;
+}
+
+#options {
+    color: #D5D4D8;
+    margin: 10px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#generate-btn {
+    border: none;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #0EA5E9;
+    margin: 0px;
+}
+
+#line {
+    margin: 15px 0px 35px;
+    border: 1px solid #2F3E53;   
+}
+
+#pass-cnt {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.password {
+    width: 205px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: #273549;
+    color: #7DD3FC;
+    font-weight: 500;
+    line-height: 2;
+    padding: 3px 2px;
+    margin: 0px;
+}
